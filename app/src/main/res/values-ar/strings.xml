@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تحدي ولا حقيقة</string>
+    <string name="open">افتح</string>
+    <string name="close">قفل</string>
+    <string name="clicked_p">تم الضغط على البروفايل</string>
+    <string name="welcome">هلا والله</string>
+    <string name="saved">انحفظت معلوماتك بنجاح</string>
+    <string name="truth">حقيقة</string>
+    <string name="truth_button">ازرار الحقيقة</string>
+    <string name="penalty_button">ازراز العقوبة</string>
+    <string name="penalty">عقوبة</string>
+    <string name="dare_button">ازرار التحدي</string>
+    <string name="dare">تحدي</string>
+    <string name="spin_button">ازرار اللف</string>
+    <string name="spin">لف القارورة</string>
+    <string name="start_button">ازرار اللعب</string>
+    <string name="start">يلا نبدأ</string>
+    <string name="bottle_button">ازرار القارورة</string>
+    <string name="bottle">العب بالقارورة</string>
+    <string name="rules_button">ازرار القوانين</string>
+    <string name="game_rules">كيفية اللعب</string>
+    <string name="don_have_an_account">ما عندك حساب؟</string>
+    <string name="register_now">سوي حساب جديد</string>
+    <string name="remember_me">تذكرني</string>
+    <string name="suggest_new_truth_dare_or_punishment"><u>اقترح سؤال، عقوبة او تحدي جديد</u></string>
+    <string name="let_s_n_play">يلا نلعب!</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="full_name">الاسم</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="theme">المظهر</string>
+    <string name="dark_mode">الوضع الداكن</string>
+    <string name="save_name">حفظ الاسم</string>
+    <string name="edit">تعديل</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="language">اللغة</string>
+    <string name="delete_my_account"><u>احذف حسابي</u></string>
+    <string name="send_suggestion">ارسل الاقتراح</string>
+    <string name="enter_your_suggestion">اكتب اقتراحك هنا</string>
+    <string name="chosen_value">القيمة المختارة</string>
+    <string name="truth_or_dare">تحدي ولا حقيقة😉؟</string>
+    <string name="finished">خلص الوقت🚨</string>
+    <string name="left">باقي </string>
+    <string name="let">يلا \nنلعب!</string>
+    <string name="password">الرقم السري</string>
+    <string name="register"><u>تسجيل</u></string>
+    <string name="loginbtn">تسجيل الدخول</string>
+    <string name="login"><u>دخول</u></string>
+    <string name="loginreg">دخول</string>
+    <string name="registerLogin">تسجيل</string>
+    <string name="forget_password"><u>نسيت كلمة المرور؟</u></string>
+    <string name="enter_email">من فضلك ادخل الايميل</string>
+    <string name="enter_password">من فضلك ادخل كلمة المرور</string>
+    <string name="no_internet">لا يوجد اتصال بالانترنت</string>
+    <string name="welcome_again">اهلاً من جديد 🎉 !</string>
+    <string name="login_failed">فشل تسجيل الدخول..</string>
+    <string name="register_failed">فشل التسجيل..</string>
+    <string name="Welcome">أهلاً \uD83C\uDF89 !</string>
+    <string name="enter_name">من فضلك ادخل الاسم الكامل</string>
+    <string name="enter_confirm_password">من فضلك ادخل تأكيد كلمة المرور</string>
+    <string name="passwords_should_match">كلمة المرور يجب ان تطابق تأكيد كلمة المرور</string>
+    <string name="not_registered_msg">للاسف ما عندك حساب، \n سجل معانا عشان تشوف ملفك الشخصي</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="reset">إستعادة</string>
+    <string name="enter_your_email">ادخل ايميلك</string>
+    <string name="rules"> 📜القوانين:</string>
+    <string name="tord_rules">1-لازم تجلسوا كمجموعة على شكل دائرة وتضغطوا زر لف القارورة \n2- القارورة حتوقف على لاعبين اثنين \n3- اللاعب 1 اللي اسفل القارورة يشير له يعطي الاختيار للاعب 2 بان يختار حقيقة او تحدي \n 4- اللاعب رقم ٢ لازم ينفذ اللي اختاره سواء تحدي او حقيقة قبل لا يخلص الوقت
+\n5- لو اللاعب رقم ٢ ما نفذ المطلوب منه خلال الوقت المحدد اللاعب رقم ١ يختارله عقوبة ولازم ينفذها قبل الوقت المحدد
+\n6- لو اللاعبين حابين يسألوا اسئلة حرة او يختاروا تحدياتهم الخاصة ممكن يلعبوا بالقارورة من خلال الضغط على الزر الثاني\n
+7- لو اللاعبين عندهم اقتراحات لأسئلة او تحديات يقدروا يرسلوها لنا من خلال تعبئة خانة الاقتراحات\n
+8- تقدر تلعب سواء كنت مسجل دخولك او لا لكن ما تقدر تغير اللغة والظهر الا بعد تسجيل الدخول\n
+</string>
+
+    <string name="notification_title">وحشتنا 😓</string>
+    <string name="notification_msg">ارجع العب مرة ثانية قريب 🤼</string>
+
+
+
+
+
+</resources>

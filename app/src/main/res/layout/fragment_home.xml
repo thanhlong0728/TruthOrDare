@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckg"
+    tools:context=".ui.HomeFragment">
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="profile"
+        android:src="@drawable/profyt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <TextView
+        android:id="@+id/letsPlayEn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:fontFamily="@font/amita"
+        android:gravity="center"
+        android:text="@string/let_s_n_play"
+        android:textColor="@color/myPlayYellow"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView"
+        app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toStartOf="@+id/lottieAnimationView"
+        app:layout_constraintTop_toTopOf="@+id/lottieAnimationView"
+        app:layout_constraintVertical_bias="0.561" />
+
+    <TextView
+        android:id="@+id/letsPlayAr"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:elevation="5dp"
+        android:fontFamily="@font/amita"
+        android:gravity="center"
+        android:text="@string/let"
+        android:textColor="@color/myPlayYellow"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView"
+        app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="@+id/lottieAnimationView"
+        app:layout_constraintTop_toTopOf="@+id/lottieAnimationView"
+        app:layout_constraintVertical_bias="0.561" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/backg" />
+
+    <ImageView
+        android:id="@+id/shareIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="share"
+        android:src="@drawable/shareicyf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <ImageView
+        android:id="@+id/loginIcon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:contentDescription="login"
+        android:src="@drawable/loginyf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/login"
+        android:textColor="@color/textColors"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginIcon" />
+
+    <ImageButton
+        android:id="@+id/startBtn"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/mybtn"
+        android:contentDescription="@string/start_button"
+        app:layout_constraintBottom_toTopOf="@id/bottleBtn"
+        app:layout_constraintEnd_toEndOf="@+id/tvLogin"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tvLogin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/start"
+        android:textColor="@color/myDark_blue"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/startBtn"
+        app:layout_constraintEnd_toEndOf="@+id/bottleBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/bottleBtn"
+        app:layout_constraintTop_toTopOf="@+id/startBtn" />
+
+
+    <ImageButton
+        android:id="@+id/bottleBtn"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/mybtn"
+        android:contentDescription="@string/bottle_button"
+        app:layout_constraintBottom_toTopOf="@id/rulesBtn"
+        app:layout_constraintEnd_toEndOf="@+id/tvBottle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tvBottle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873" />
+
+    <TextView
+        android:id="@+id/tvBottle"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/bottle"
+        android:textColor="@color/myDark_blue"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/bottleBtn"
+        app:layout_constraintEnd_toEndOf="@+id/rulesBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/rulesBtn"
+        app:layout_constraintTop_toTopOf="@+id/bottleBtn" />
+
+    <ImageButton
+        android:id="@+id/rulesBtn"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/mybtn"
+        android:contentDescription="@string/rules_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvRules"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/tvRules"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.776" />
+
+    <TextView
+        android:id="@+id/tvRules"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/game_rules"
+        android:textColor="@color/myDark_blue"
+        android:textSize="19sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/rulesBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rulesBtn"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <TextView
+        android:id="@+id/tvSuggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/suggest_new_truth_dare_or_punishment"
+        android:textColor="@color/textColors"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

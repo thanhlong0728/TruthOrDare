@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--MY Palette-->
+    <color name="myOrange">#FFA630</color>
+    <color name="myYellow">#F1C720</color>
+    <color name="myPlayYellow">#f7b70c</color>
+    <color name="myWhite">#EBEBEB</color>
+    <color name="myLight_blue">#00A7E1</color>
+    <color name="myDark_blue">#282f77</color>
+    <color name="myDark_blue1">#0B1D6F</color>
+    <color name="myGray">#7C7C7C</color>
+    <color name="myDarkGray">#7C7C7C</color>
+    <color name="grayBkgLight">#B9F4F4F4</color>
+    <color name="grayBkgDark">#B97C7C7C</color>
+    <color name="textColors">#282f77</color>
+    <color name="textBackground">#D2F8F8F8</color>
+    <color name="editTextBackground">#D2F8F8F8</color>
+    <color name="loginRegColor">#F1C720</color>
+    <color name="blackWhite">#000000</color>
+    <color name="loginReg">#0B1D6F</color>
+
+
+    <color name="mtrl_textinput_default_box_stroke_color">@color/blackWhite</color>
+
+
+
+
+</resources>
